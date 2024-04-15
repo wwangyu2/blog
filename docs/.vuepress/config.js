@@ -8,7 +8,7 @@ import { viteBundler } from '@vuepress/bundler-vite'
 import { searchProPlugin } from "vuepress-plugin-search-pro";
 
 export default defineUserConfig({
-  base:'/',//部署站点的基础路径,默认/
+  base:'/blog/',//部署站点的基础路径,默认/，自定义也是/，仓库名就是/仓库名，例如仓库是blog，那就是/blog/
   lang: 'zh-CN',
 
   title: '不知道文档站',
